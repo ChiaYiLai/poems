@@ -6,5 +6,6 @@
   },
   "dependencies": {
     "vitepress": "^1.6.4"
-  }
+  },
+  "type": "module"
 }
