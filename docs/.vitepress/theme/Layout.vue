@@ -15,6 +15,6 @@ const { site, frontmatter } = useData()
   <div class="single" v-else>
     <h1 class="title-post">{{ frontmatter.title }}</h1>
     <div class="content"><Content /></div>
-    <a href="/poems" class="back">catalog</a>
+    <a href="/poems/" class="back">catalog</a>
   </div>
 </template>
