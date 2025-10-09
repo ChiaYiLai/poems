@@ -8,6 +8,13 @@ export default defineConfig({
   cleanUrls: true,
   head: [
     ['link', { rel: 'icon', href: `${base}favicon.svg` }],
+    [
+      'meta',
+      {
+        name: 'viewport',
+        content: 'width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no'
+      }
+    ]
   ],
   sitemap: {
     hostname: `https://chiayilai.github.io${base}`

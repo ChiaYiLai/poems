@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Chiron+GoRound+TC:wght@200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Chiron+GoRound+TC:wght@200&display=swap');
 
 :root {
   --bg: #149;
@@ -28,7 +28,7 @@ a {
 
 .home {
   writing-mode: vertical-lr;
-  padding-top: 6rem;
+  padding: 6rem 6rem 0 0;
   h1 {
     margin-right: 0;
     font-size: 60px;
@@ -68,6 +68,7 @@ a {
       letter-spacing: 1px;
       line-height: 2;
       white-space: nowrap;
+      padding-right: 3rem;
     }
   }
   .back {
